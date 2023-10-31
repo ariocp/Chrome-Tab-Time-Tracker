@@ -1,6 +1,3 @@
-/* Refactored Code */
-
-/* Button Styles */
 button {
     font-size: 12px;
     height: 40px;
@@ -25,7 +22,6 @@ button:active {
     transform: scale(0.95);
 }
 
-/* Time Display Styles */
 #timeDisplay {
     margin-top: 10px;
     font-size: 14px;
@@ -44,7 +40,6 @@ button:active {
     }
 }
 
-/* Container Styles */
 .container {
     display: flex;
     flex-direction: column;
