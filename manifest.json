@@ -3,7 +3,6 @@
   "description": "An extension to track time spent on browser tabs",
   "version": "1.0.0",
   "manifest_version": 3,
-
   "action": {
     "default_icon": {
       "16": "./icons/icon16.png",
@@ -20,7 +19,7 @@
     "128": "./icons/icon128.png"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "./service-worker.js"
   },
   "permissions": [
     "alarms",
